@@ -1,6 +1,6 @@
 # pistis-config-parser
 Configuration file parser.  Parses simple configuration files and maps them to an object.  Configuration files look like:
-
+~~~~
 \# This is a comment
 
 \# Parse the configuration in "some_file" as if it were part of this file
@@ -17,4 +17,4 @@ some_group {
   property_1 = 1
   property_2 = foo
 }
-
+~~~~
